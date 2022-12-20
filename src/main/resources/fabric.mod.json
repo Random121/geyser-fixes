@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "id": "geyserfixes",
+    "version": "${version}",
+    "name": "Geyser Fixes",
+    "description": "A Fabric version of GeyserHacks by Camotoy.",
+    "authors": [
+        "Random121"
+    ],
+    "contact": {
+        "homepage": "https://github.com/Random121",
+        "sources": "https://github.com/Random121"
+    },
+    "license": "CC0-1.0",
+    "icon": "assets/geyserfixes/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.random121.geyserfixes.GeyserFixesMod"
+        ]
+    },
+    "mixins": [
+        "geyserfixes.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.14.11",
+        "fabric-api": "*",
+        "minecraft": "~1.19.3",
+        "java": ">=17"
+    }
+}
