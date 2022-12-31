@@ -11,7 +11,7 @@ import net.minecraft.world.BlockView;
 import org.spongepowered.asm.mixin.Mixin;
 
 @Mixin(PointedDripstoneBlock.class)
-public class PointedDripstoneBlockMixin extends Block {
+public abstract class PointedDripstoneBlockMixin extends Block {
 
     // dummy constructor
     public PointedDripstoneBlockMixin(Settings settings) {

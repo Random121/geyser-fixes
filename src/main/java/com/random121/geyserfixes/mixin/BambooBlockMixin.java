@@ -13,7 +13,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(BambooBlock.class)
-public class BambooBlockMixin {
+public abstract class BambooBlockMixin {
 
     // remove bamboo block collision
     @Inject(method = "getCollisionShape", at = @At("HEAD"), cancellable = true)
